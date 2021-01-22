@@ -55,7 +55,7 @@ public class TariffsPage {
         return this;
     }
 
-    public TariffsPage clickButtonLinkGoogle() {
+ /*   public TariffsPage clickButtonLinkGoogle() {
         driver.findElement(By.xpath(buttonLinkGoogle)).click();
         return this;
     }
@@ -64,7 +64,7 @@ public class TariffsPage {
         driver.findElement(By.xpath(buttonLinkApple)).click();
         return this;
     }
-
+*/
     public TariffsPage assertSelectFiltersWithTariffs() {
         List<WebElement> findElementsTabs = driver.findElements(By.xpath(xPathCheckPassport));
             if(driver.findElement(By.id(okCheckboxPostpaid)).isEnabled()
